@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body {
+    background: url("images/space.jpeg") no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+h1 {
+    text-align: center;
+    margin: 5%;
+    font-size: 3rem;
+    color: aquamarine;
+    text-decoration: underline;
+}
+ul {
+    text-align: left;
+    padding: 7%;
+    font-size: 2rem;
+}
+li {
+    transition: 0.6s ease-in-out;
+    padding: 8px 13px;
+    color: blue;
+    margin-bottom: 5px;
+    width: 200px;
+}
+li:hover {
+    color: red;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.row {
+    justify-content: center;
+}
+.form-group {
+    margin-right: 250px;
+    margin-top: 15px;
+    text-align: center;
+}
+.form-group_two {
+    margin-left: 100px;
+    margin-top: -38px;
+    text-align: center;
+}

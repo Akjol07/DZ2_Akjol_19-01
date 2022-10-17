@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1 class="row">TODO APP</h1>
+        <br/><br/>
+        <div class="row">
+            <form class="form-inline col-sm-offset">
+                <div class="input-group">
+                    <span class="input-group-addon"> </span>
+                    <input type="text" class="form-control" placeholder="Что хотите записать" id="box" style="width: 20vw;"/>
+                </div>
+                <div class="form-group">
+                    <input type="button"
+                           class="btn btn-primary form-control"
+                           value="add"
+                           style="width: 10vw;"
+                           onclick = "add_item()"/>
+                </div>
+                <div class="form-group_two">
+                    <input type="button"
+                           class="btn btn-primary form-control"
+                           value="Delete"
+                           style="width: 10vw;"
+                           onclick = "delete_item()"/>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <ul id="list_item"></ul>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
